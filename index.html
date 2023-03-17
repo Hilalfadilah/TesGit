@@ -13,7 +13,7 @@
     <nav class="navbar">
         <div class="navbar-nav">
             <a href="#home">Home</a>
-            <a href="#about">About Us</a>
+            <a href="#about" onclick="test()">About Us</a>
             <a href="#clients">Clients</a>
             <a href="#contact">Contact</a>
         </div>
@@ -25,7 +25,9 @@
         sed? Sapiente, omnis.</p>
 
     <script>
-
+        function test() {
+            document.querySelector('.box').style.display = 'block';
+        }
     </script>
 </body>
 
