@@ -27,12 +27,6 @@
   color: aqua;
 }
 
-.navbar .navbar-nav a:active {
-  width: 50px;
-  height: 100px;
-  background-color: brown;
-}
-
 .box {
   width: 170px;
   height: 200px;
