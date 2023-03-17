@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem;
+  border-bottom: 1px solid #663c1c;
+}
+
+.navbar .navbar-nav a {
+  color: black;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .navbar-nav a:hover {
+  color: aqua;
+}
