@@ -26,3 +26,13 @@
 .navbar .navbar-nav a:hover {
   color: aqua;
 }
+
+.dropdown-modal {
+  position: absolute;
+  top: 5rem;
+  left: 40vw;
+  width: 10rem;
+  height: 15rem;
+  background-color: white;
+  border: 1px solid black;
+}
